@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("imagesnew/fond.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-----------------------------NAV----------------------------------------*/
+
+nav{
+   
+    position: fixed;
+    height: 100vh;
+    width: 19vw;
+    list-style: none;
+    background-color: rgba(69, 144, 113, 0.6);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+}
+
+.logo{
+    width: 7vw;
+    /*border: 3px solid black;*/
+    margin-top: 29px;
+    margin-left: 75px;
+}
+
+.menu ul{
+    margin-top: 33px;
+    
+
+}
+
+.menu ul li{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+/*.accueil {
+    padding-left: 71px;
+}
+.hist{
+    padding-left: 7px; 
+}
+.picture {
+    padding-left: 15px;
+}
+.activité{
+    padding-left: 6px;   
+}
+.prix{
+    padding-left: 77px;
+}
+.foire{
+    padding-left: 94px;
+}
+.us {
+    padding-left: 62px;
+}*/
+
+.menu ul li a {
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+   
+   
+}
+.menu ul li a
+{
+    /*color : rgb(1, 10, 6);*/
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+}
+
+.menu ul li a:hover
+{
+    color :white;
+}
+ 
+
+/*----------------------MAIN---------------------------------*/
+
+main{
+    margin-left: 23%;
+    margin-right: 3%;
+
+}
+
+/*-------------------------------HEADER---------------------------------*/
+
+header{
+   
+    width: 73vw;
+    
+}
+
+.titre{
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+  
+    padding-top: 3%;
+    margin-left: 33.5%;
+    height: 29vh;
+    width: 70vw;
+    text-align: center;
+    text-transform: uppercase;
+  font-size: 3em;
+    
+}  
+
+/*-------------------------------Actu---------------------------------*/
+
+.actu{
+   
+    width: 73vw;
+    padding: 13px;
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+    
+    margin-left: 0.2%;
+}
+
+.actu .titre_actu{
+   text-align: center;
+   color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+}
+
+/*-----------------------------Histoire----------------------*/
+
+.history{
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+    margin-top: 7%;
+    width: 73vw;
+    padding:25px; 
+    margin-left: 0.2%;
+    
+}
+
+.history #histoire{
+    padding-left: 11%;
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+
+}
+
+.history .photo_hist{
+    float: right;
+    width: 26vw;
+    margin-top: -7.7%;
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+}
+
+/*-----------------------------Galerie photos----------------------*/
+
+.photo{
+    margin-top: 7%;
+    padding-left: 4px;
+    height: 89vh;
+    width: 73vw;
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+    
+   
+}
+.photo #photos{
+    padding-top: 2%;
+    height: 13vh;
+    text-align: center;
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+    
+
+}
+
+/*--------------------------Propositons---------------------------------------*/
+
+.propositions{
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+    margin-top: 7%;
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+.propositions #proposition{
+    text-transform: uppercase;
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+}
+.propositions h2{
+    text-transform: uppercase;
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+}
+
+/*---------------------TARIF--------------------------------*/
+.cout{
+    margin-top: 7%;
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+    height: 42vh;
+}
+
+#tarif{
+    text-align: center;
+    margin-bottom: 11px;
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+    
+}
+    
+
+
+table{
+    width: 50vw;
+    text-align: center;
+    margin-left: 16%;
+    height: 30vh;
+    
+}
+
+table th{
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.ps{
+    text-align: center;
+}
+
+
+
+/*----------------------------FAQ--------------------------------*/
+.lafaq{
+    margin-top: 7%;
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+    padding-bottom: 2%;
+}
+
+
+
+
+#faq{
+    padding-top: 1%;
+   
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+.lafoire {
+    padding-left: 30px;
+
+}
+.lafoire::before {
+    content: "▪"; color:rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+}
+
+/*-------------------Contact----------------------------------*/
+#aboutUs{
+ 
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 40vh;
+    margin-top: 5%;
+    background-color: rgba(69, 144, 113, 0.3);
+    box-shadow: 11px 0.5px 11px rgb(21, 31, 29);
+   
+   
+}
+
+#contact{
+    width: 100%;
+    text-align: center;
+    color : rgb(255, 76, 5);
+    text-shadow: black 1px 1px;
+   
+}
+
+/*--------------------FOOTER------------------------------*/
+
+footer{
+    margin-top: 3%;
+    text-align: center;
+}
+
+
+
